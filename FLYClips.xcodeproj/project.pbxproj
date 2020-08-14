@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0480C3D324E66D17005DEAA5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0480C3D224E66D17005DEAA5 /* AppDelegate.m */; };
+		0480C3D624E66D17005DEAA5 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0480C3D524E66D17005DEAA5 /* SceneDelegate.m */; };
+		0480C3D924E66D17005DEAA5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0480C3D824E66D17005DEAA5 /* ViewController.m */; };
+		0480C3DC24E66D17005DEAA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0480C3DA24E66D17005DEAA5 /* Main.storyboard */; };
+		0480C3DE24E66D1C005DEAA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0480C3DD24E66D1C005DEAA5 /* Assets.xcassets */; };
+		0480C3E124E66D1C005DEAA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0480C3DF24E66D1C005DEAA5 /* LaunchScreen.storyboard */; };
+		0480C3E424E66D1C005DEAA5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0480C3E324E66D1C005DEAA5 /* main.m */; };
+		0480C3F524E66DA6005DEAA5 /* FLYClipsBoxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0480C3EB24E66DA6005DEAA5 /* FLYClipsBoxView.m */; };
+		0480C3F624E66DA6005DEAA5 /* FLYClipsLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0480C3EC24E66DA6005DEAA5 /* FLYClipsLineView.m */; };
+		0480C3F724E66DA6005DEAA5 /* FLYClipsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0480C3ED24E66DA6005DEAA5 /* FLYClipsView.m */; };
+		0480C3F824E66DA6005DEAA5 /* FLYClipsMaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0480C3EE24E66DA6005DEAA5 /* FLYClipsMaskView.m */; };
+		0480C3F924E66DA6005DEAA5 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 0480C3EF24E66DA6005DEAA5 /* UIView+Frame.m */; };
+		E6681B2C89F871A0982EAC92 /* Pods_FLYClips.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F51D656AD010547524D6023 /* Pods_FLYClips.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0480C3CE24E66D17005DEAA5 /* FLYClips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FLYClips.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0480C3D124E66D17005DEAA5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0480C3D224E66D17005DEAA5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0480C3D424E66D17005DEAA5 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		0480C3D524E66D17005DEAA5 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		0480C3D724E66D17005DEAA5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0480C3D824E66D17005DEAA5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0480C3DB24E66D17005DEAA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0480C3DD24E66D1C005DEAA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0480C3E024E66D1C005DEAA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0480C3E224E66D1C005DEAA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0480C3E324E66D1C005DEAA5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0480C3EB24E66DA6005DEAA5 /* FLYClipsBoxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLYClipsBoxView.m; sourceTree = "<group>"; };
+		0480C3EC24E66DA6005DEAA5 /* FLYClipsLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLYClipsLineView.m; sourceTree = "<group>"; };
+		0480C3ED24E66DA6005DEAA5 /* FLYClipsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLYClipsView.m; sourceTree = "<group>"; };
+		0480C3EE24E66DA6005DEAA5 /* FLYClipsMaskView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLYClipsMaskView.m; sourceTree = "<group>"; };
+		0480C3EF24E66DA6005DEAA5 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		0480C3F024E66DA6005DEAA5 /* FLYClipsLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLYClipsLineView.h; sourceTree = "<group>"; };
+		0480C3F124E66DA6005DEAA5 /* FLYClipsBoxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLYClipsBoxView.h; sourceTree = "<group>"; };
+		0480C3F224E66DA6005DEAA5 /* FLYClipsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLYClipsView.h; sourceTree = "<group>"; };
+		0480C3F324E66DA6005DEAA5 /* FLYClipsMaskView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLYClipsMaskView.h; sourceTree = "<group>"; };
+		0480C3F424E66DA6005DEAA5 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		3F51D656AD010547524D6023 /* Pods_FLYClips.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FLYClips.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		458E5919B620039EFB59D497 /* Pods-FLYClips.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLYClips.release.xcconfig"; path = "Target Support Files/Pods-FLYClips/Pods-FLYClips.release.xcconfig"; sourceTree = "<group>"; };
+		E8731D2DF334F2256F12AC75 /* Pods-FLYClips.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLYClips.debug.xcconfig"; path = "Target Support Files/Pods-FLYClips/Pods-FLYClips.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0480C3CB24E66D17005DEAA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6681B2C89F871A0982EAC92 /* Pods_FLYClips.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0480C3C524E66D17005DEAA5 = {
+			isa = PBXGroup;
+			children = (
+				0480C3D024E66D17005DEAA5 /* FLYClips */,
+				0480C3CF24E66D17005DEAA5 /* Products */,
+				1AD8E60E315389FA8ABB18F6 /* Pods */,
+				D720465647EF012BB28ABA47 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0480C3CF24E66D17005DEAA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0480C3CE24E66D17005DEAA5 /* FLYClips.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0480C3D024E66D17005DEAA5 /* FLYClips */ = {
+			isa = PBXGroup;
+			children = (
+				0480C3D124E66D17005DEAA5 /* AppDelegate.h */,
+				0480C3D224E66D17005DEAA5 /* AppDelegate.m */,
+				0480C3D424E66D17005DEAA5 /* SceneDelegate.h */,
+				0480C3D524E66D17005DEAA5 /* SceneDelegate.m */,
+				0480C3EA24E66DA6005DEAA5 /* Class */,
+				0480C3D724E66D17005DEAA5 /* ViewController.h */,
+				0480C3D824E66D17005DEAA5 /* ViewController.m */,
+				0480C3DA24E66D17005DEAA5 /* Main.storyboard */,
+				0480C3DD24E66D1C005DEAA5 /* Assets.xcassets */,
+				0480C3DF24E66D1C005DEAA5 /* LaunchScreen.storyboard */,
+				0480C3E224E66D1C005DEAA5 /* Info.plist */,
+				0480C3E324E66D1C005DEAA5 /* main.m */,
+			);
+			path = FLYClips;
+			sourceTree = "<group>";
+		};
+		0480C3EA24E66DA6005DEAA5 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				0480C3EB24E66DA6005DEAA5 /* FLYClipsBoxView.m */,
+				0480C3EC24E66DA6005DEAA5 /* FLYClipsLineView.m */,
+				0480C3ED24E66DA6005DEAA5 /* FLYClipsView.m */,
+				0480C3EE24E66DA6005DEAA5 /* FLYClipsMaskView.m */,
+				0480C3EF24E66DA6005DEAA5 /* UIView+Frame.m */,
+				0480C3F024E66DA6005DEAA5 /* FLYClipsLineView.h */,
+				0480C3F124E66DA6005DEAA5 /* FLYClipsBoxView.h */,
+				0480C3F224E66DA6005DEAA5 /* FLYClipsView.h */,
+				0480C3F324E66DA6005DEAA5 /* FLYClipsMaskView.h */,
+				0480C3F424E66DA6005DEAA5 /* UIView+Frame.h */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		1AD8E60E315389FA8ABB18F6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E8731D2DF334F2256F12AC75 /* Pods-FLYClips.debug.xcconfig */,
+				458E5919B620039EFB59D497 /* Pods-FLYClips.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D720465647EF012BB28ABA47 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F51D656AD010547524D6023 /* Pods_FLYClips.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0480C3CD24E66D17005DEAA5 /* FLYClips */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0480C3E724E66D1C005DEAA5 /* Build configuration list for PBXNativeTarget "FLYClips" */;
+			buildPhases = (
+				5B8E8A004BE28B01F4A1187E /* [CP] Check Pods Manifest.lock */,
+				0480C3CA24E66D17005DEAA5 /* Sources */,
+				0480C3CB24E66D17005DEAA5 /* Frameworks */,
+				0480C3CC24E66D17005DEAA5 /* Resources */,
+				BC512E10407791D33CE5F023 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FLYClips;
+			productName = FLYClips;
+			productReference = 0480C3CE24E66D17005DEAA5 /* FLYClips.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0480C3C624E66D17005DEAA5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = fly;
+				TargetAttributes = {
+					0480C3CD24E66D17005DEAA5 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = 0480C3C924E66D17005DEAA5 /* Build configuration list for PBXProject "FLYClips" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0480C3C524E66D17005DEAA5;
+			productRefGroup = 0480C3CF24E66D17005DEAA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0480C3CD24E66D17005DEAA5 /* FLYClips */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0480C3CC24E66D17005DEAA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0480C3E124E66D1C005DEAA5 /* LaunchScreen.storyboard in Resources */,
+				0480C3DE24E66D1C005DEAA5 /* Assets.xcassets in Resources */,
+				0480C3DC24E66D17005DEAA5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5B8E8A004BE28B01F4A1187E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FLYClips-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC512E10407791D33CE5F023 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FLYClips/Pods-FLYClips-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FLYClips/Pods-FLYClips-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FLYClips/Pods-FLYClips-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0480C3CA24E66D17005DEAA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0480C3F624E66DA6005DEAA5 /* FLYClipsLineView.m in Sources */,
+				0480C3D924E66D17005DEAA5 /* ViewController.m in Sources */,
+				0480C3F824E66DA6005DEAA5 /* FLYClipsMaskView.m in Sources */,
+				0480C3F924E66DA6005DEAA5 /* UIView+Frame.m in Sources */,
+				0480C3D324E66D17005DEAA5 /* AppDelegate.m in Sources */,
+				0480C3E424E66D1C005DEAA5 /* main.m in Sources */,
+				0480C3F524E66DA6005DEAA5 /* FLYClipsBoxView.m in Sources */,
+				0480C3D624E66D17005DEAA5 /* SceneDelegate.m in Sources */,
+				0480C3F724E66DA6005DEAA5 /* FLYClipsView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0480C3DA24E66D17005DEAA5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0480C3DB24E66D17005DEAA5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0480C3DF24E66D1C005DEAA5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0480C3E024E66D1C005DEAA5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0480C3E524E66D1C005DEAA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0480C3E624E66D1C005DEAA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0480C3E824E66D1C005DEAA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8731D2DF334F2256F12AC75 /* Pods-FLYClips.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2638M5H9L6;
+				INFOPLIST_FILE = FLYClips/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fly.FLYClips;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0480C3E924E66D1C005DEAA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 458E5919B620039EFB59D497 /* Pods-FLYClips.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2638M5H9L6;
+				INFOPLIST_FILE = FLYClips/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fly.FLYClips;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0480C3C924E66D17005DEAA5 /* Build configuration list for PBXProject "FLYClips" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0480C3E524E66D1C005DEAA5 /* Debug */,
+				0480C3E624E66D1C005DEAA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0480C3E724E66D1C005DEAA5 /* Build configuration list for PBXNativeTarget "FLYClips" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0480C3E824E66D1C005DEAA5 /* Debug */,
+				0480C3E924E66D1C005DEAA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0480C3C624E66D17005DEAA5 /* Project object */;
+}
